@@ -18,10 +18,10 @@ class BladeVariableServiceProvider extends ServiceProvider
     {
         $blade = $this->app['view']->getEngineResolver()->resolve('blade')->getCompiler();
 
-        $blade->extend( function($value, $compiler)
-		{
-			return preg_replace("/@var\('(.*?)'\,(.*)\)/", '<?php $$1 = $2; ?>', $value);
-		});
+        $blade->directive('var', function ($exp)
+        {
+            return preg_replace("/\('(.*?)'\,(.*)\)/", '<?php $$1 = $2; ?>', $exp);
+        });
     }
 
 }
