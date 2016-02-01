@@ -9,7 +9,7 @@ Add this line to `composer.json` file-
 ```
 require: {
     ...,
-    "milon/laravel-blade": "~5.2"
+    "milon/blade-variable": "~5.2"
 }
 ```
 
@@ -18,7 +18,7 @@ for Laravel 5.1 add these lines-
 ```
 require: {
     ...,
-    "milon/laravel-blade": "~5.1"
+    "milon/blade-variable": "~5.1"
 }
 ```
 
