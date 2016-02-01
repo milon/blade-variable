@@ -44,5 +44,5 @@ Then you can use this like any other normal php variable-
 
 ## Copyright
 
-Nuruzzaman Milon
+Nuruzzaman Milon  
 http://milon.im
