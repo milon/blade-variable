@@ -1,6 +1,6 @@
 # blade-variable
 
-Declaring variable in Laravel blade files.
+Declaring variables in Laravel blade files.
 
 ## Installation
 
@@ -9,7 +9,15 @@ Add this line to `composer.json` file-
 ```
 require: {
     ...,
-    "milon/laravel-blade": "dev-master"
+    "milon/laravel-blade": "~5.2"
+}
+```
+
+For Laravel 5.1 try these lines instead-
+```
+require: {
+    ...,
+    "milon/laravel-blade": "~5.1"
 }
 ```
 
