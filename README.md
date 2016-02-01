@@ -1,6 +1,6 @@
 # blade-variable
 
-Declaring variable in blade file
+Declaring variable in Laravel blade files.
 
 ## Installation
 
