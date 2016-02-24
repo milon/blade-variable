@@ -1,3 +1,7 @@
+[![Packagist Downloads](https://img.shields.io/packagist/dt/milon/blade-variable.svg)](https://packagist.org/packages/milon/blade-variable)
+[![Stable version](https://img.shields.io/packagist/v/milon/blade-variable.svg)](https://packagist.org/packages/milon/blade-variable)
+[![License](https://img.shields.io/packagist/l/milon/blade-variable.svg)](https://packagist.org/packages/milon/blade-variable)
+
 # blade-variable
 
 Declaring variables in Laravel blade files.
